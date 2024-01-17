@@ -4,7 +4,7 @@
 ## Usage
 To run this on your local machine simply run:
 
-`docker run -ti -p 3270:3270 -p8038:8038 skunklabz/tk4-hercules`
+`docker run -ti -p 3270:3270 -p8038:8038 psvehla/tk4-hercules`
 
 After a minute or so you'll get a prompt where you can start learning about MVS 3.8j. 
 
