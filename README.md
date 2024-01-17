@@ -24,7 +24,7 @@ docker run -d \
 --mount source=tk4-jcl,target=/tk4-/jcl \
 --mount source=tk4-log,target=/tk4-/log \
 -p 3270:3270 \
--p 8038:8038 tk4
+-p 8038:8038 psvehla/tk4-hercules
 ```
 
 ### Description of persisted directories
