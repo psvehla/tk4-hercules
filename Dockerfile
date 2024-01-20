@@ -1,6 +1,5 @@
 FROM ubuntu:24.04 as builder
 
-RUN apt-get update && apt-get install -yq unzip
 WORKDIR /tk4-/
 ADD https://archive.org/download/tk4_ispf.tar/tk4_ispf.tar.gz /tk4-/
 RUN tar xvfz tk4_ispf.tar.gz && \
